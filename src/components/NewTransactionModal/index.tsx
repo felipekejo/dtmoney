@@ -46,9 +46,9 @@ export function NewTransactionModal({
         <img src={closeImg} alt="Fechar Modal" />
       </button>
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastrar transações</h2>
+        <h2>Add Transaction</h2>
         <input
-          placeholder="Título"
+          placeholder="Description"
           value={title}
           onChange={event => setTitle(event.target.value)}
         />
@@ -68,7 +68,7 @@ export function NewTransactionModal({
             }}
           >
             <img src={incomeImg} alt="Entrada" />
-            <span>Entrada</span>
+            <span>Income</span>
           </RadioBox>
           <RadioBox
             type="button"
@@ -79,16 +79,16 @@ export function NewTransactionModal({
             }}
           >
             <img src={outcomeImg} alt="Saída" />
-            <span>Saída</span>
+            <span>Outcome</span>
           </RadioBox>
         </TransactionTypeContainer>
         <input
-          placeholder="Categoria"
+          placeholder="Category"
           value={category}
           onChange={event => setCategory(event.target.value)}
         />
 
-        <button type="submit">Cadastrar</button>
+        <button type="submit">Submit</button>
       </Container>
     </Modal>
   );
