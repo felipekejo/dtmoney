@@ -8,7 +8,7 @@
 </p>
 
 
-## 🚀 Technologies
+## 🧪 Technologies
 
 Project developed with the following technologies:
 
@@ -19,6 +19,23 @@ Project developed with the following technologies:
 - [Axios](https://axios-http.com/)
 - [Polished](https://polished.js.org/)
 
+## 🚀 How to run the project
+
+Clone the project and access its folder.
+
+```bash
+$ git clone https://github.com/felipekejo/dtmoney.git
+$ cd dtmoney
+```
+
+To start it, follow the steps below:
+```bash
+# Install all the dependencies
+$ yarn
+# Start the project
+$ yarn start
+```
+The app will be available in your browser by address http://localhost:3000.
 
 ## 💻 Project
 
@@ -26,4 +43,11 @@ Dtmoney is a financial control application. It was developed during the classes 
 
 ## 🔖 Layout
 
-You can view the project layout through [this link](https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=0%3A1). You must have a [Figma account](https://figma.com) to access it.
+You can view the project layout through the link below:
+
+- [Layout Web](https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=0%3A1)
+
+
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
