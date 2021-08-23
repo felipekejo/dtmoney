@@ -20,7 +20,7 @@ Project developed with the following technologies:
 - [Polished](https://polished.js.org/)
 
 
-## 💻 Projeto
+## 💻 Project
 
 Dtmoney is a financial control application. It was developed during the classes in Chapter II of the RocketSeat's Bootcamp Ignite ReactJS track, and it is possible to register and delete transactions and see the income and outcome of the balance. 💰
 
